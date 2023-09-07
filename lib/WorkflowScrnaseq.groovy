@@ -175,6 +175,9 @@ class WorkflowScrnaseq {
                     break
                 case 'smartseq':
                     new_protocol = 'SmartSeq'
+                case 'scDiscoveries':
+                    new_protocol = 'CB_UMI_Simple'
+                    other_parameters = '--soloUMIstart 1 --soloUMIlen 6 --soloCBstart 7 --soloCBlen 8'
             }
         }
 
