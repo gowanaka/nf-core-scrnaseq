@@ -178,6 +178,9 @@ class WorkflowScrnaseq {
                 case 'scDiscoveries':
                     new_protocol = 'CB_UMI_Simple'
                     other_parameters = '--soloUMIstart 1 --soloUMIlen 6 --soloCBstart 7 --soloCBlen 8 --soloBarcodeReadLength 26'
+                case 'scDiscoveries_2024':
+                    new_protocol = 'CB_UMI_Simple'
+                    other_parameters = '--soloUMIstart 1 --soloUMIlen 6 --soloCBstart 7 --soloCBlen 8 --soloBarcodeReadLength 28'
             }
         }
 
